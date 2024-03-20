@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+        padding: 0;
+	color: #484848;
+	font-size: 14px;
+	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	/*display: flex;*/
+	/*align-items: center;
+	justify-self: middle;
+	justify-self: center;
+	align-content: center;*/
+}
+
+
+.container {
+	max-width: 1000px;
+	margin: 30px auto 30px auto;
+	/*display: flex;
+	justify-items: center;
+        align-items: center;
+        justify-self: middle;
+        justify-self: center;
+        align-content: center;*/
+	/*justify-self: end;*/
+}

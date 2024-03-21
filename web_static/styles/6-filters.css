@@ -27,13 +27,19 @@
 .filters button:hover {
         opacity: 90%;
 }
-	
+
+
+.locations:hover .popover{
+	visibility: visible;
+}
+
 	
 .locations {
         margin-left: 4%;
 	height: 100%;
         width: 25%;
         border-right: 1px solid #DDDDDD;
+	z-index: 1;
 }
 
 
@@ -43,9 +49,13 @@
 	margin-left: 4%;
 }
 
+.amenities:hover .popover{
+	visibility: visible;
+}
+
 
 .filters h3 {
-        font-weight: 600;
+	font-weight: 600;
 	/*margin: auto;*/
 	margin-bottom: 0px;
 }
@@ -54,4 +64,38 @@
 	font-weight: 400;
 	font-size: 14px;
 	margin: auto;
+}
+
+
+.popover {
+	background-color: #FAFAFA;
+	border: #DDDDDD 1px solid;
+	border-radius: 4px;
+	visibility: hidden;
+	margin-left: -40px;
+	width: 116%;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 20px 0px 0px -15px;
+}
+
+li {
+	margin: 0px 0px 0px 15px;
+}
+
+.last {
+	padding-bottom: 20px;
+}
+
+.top {
+	padding-top: 0px;
+}
+
+h2 {
+	margin: 0px;
 }

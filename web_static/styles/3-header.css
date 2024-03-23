@@ -3,6 +3,9 @@ header {
         height: 70px;
         width: 100%;
 	border-bottom: 1px solid #CCCCCC;
+	justify-content: center;
+        align-items: center;
+        padding-top: 5px;
 }
 
 .logo {
